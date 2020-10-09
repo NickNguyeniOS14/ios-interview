@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63D90812530A0FC0038EBC5 /* UIAlertController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63D90802530A0FC0038EBC5 /* UIAlertController+Ext.swift */; };
+		B63D90852530A3AE0038EBC5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63D90842530A3AE0038EBC5 /* NetworkError.swift */; };
+		B63D90882530A4D60038EBC5 /* CALayer+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63D90872530A4D60038EBC5 /* CALayer+Ext.swift */; };
 		B6C2A45F252DF2C700FEF700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2A45E252DF2C700FEF700 /* AppDelegate.swift */; };
 		B6C2A461252DF2C700FEF700 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2A460252DF2C700FEF700 /* SceneDelegate.swift */; };
 		B6C2A463252DF2C700FEF700 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C2A462252DF2C700FEF700 /* TutorialViewController.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B63D90802530A0FC0038EBC5 /* UIAlertController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Ext.swift"; sourceTree = "<group>"; };
+		B63D90842530A3AE0038EBC5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		B63D90872530A4D60038EBC5 /* CALayer+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Ext.swift"; sourceTree = "<group>"; };
 		B6C2A45B252DF2C700FEF700 /* RWTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C2A45E252DF2C700FEF700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6C2A460252DF2C700FEF700 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +109,8 @@
 				B6C2A47D252E070100FEF700 /* HTTPURLResponse+Ext.swift */,
 				B6C2A48E252E228300FEF700 /* Date+Ext.swift */,
 				B6C2A4A1252E2C2400FEF700 /* ViewController+Ext.swift */,
+				B63D90802530A0FC0038EBC5 /* UIAlertController+Ext.swift */,
+				B63D90872530A4D60038EBC5 /* CALayer+Ext.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -111,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B6C2A476252DF82C00FEF700 /* Tutorial.swift */,
+				B63D90842530A3AE0038EBC5 /* NetworkError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,12 +238,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C2A463252DF2C700FEF700 /* TutorialViewController.swift in Sources */,
+				B63D90852530A3AE0038EBC5 /* NetworkError.swift in Sources */,
 				B6C2A474252DF79E00FEF700 /* TutorialCell.swift in Sources */,
 				B6C2A4A2252E2C2400FEF700 /* ViewController+Ext.swift in Sources */,
+				B63D90812530A0FC0038EBC5 /* UIAlertController+Ext.swift in Sources */,
 				B6C2A486252E1A0C00FEF700 /* Cache.swift in Sources */,
 				B6C2A48C252E1B9000FEF700 /* FetchPhotoOperation.swift in Sources */,
 				B6C2A47E252E070100FEF700 /* HTTPURLResponse+Ext.swift in Sources */,
 				B6C2A45F252DF2C700FEF700 /* AppDelegate.swift in Sources */,
+				B63D90882530A4D60038EBC5 /* CALayer+Ext.swift in Sources */,
 				B6C2A48F252E228300FEF700 /* Date+Ext.swift in Sources */,
 				B6C2A47B252DFDC200FEF700 /* NetworkService.swift in Sources */,
 				B6C2A461252DF2C700FEF700 /* SceneDelegate.swift in Sources */,

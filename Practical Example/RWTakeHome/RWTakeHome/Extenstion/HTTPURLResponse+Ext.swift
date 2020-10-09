@@ -9,7 +9,7 @@ import UIKit
 
 extension HTTPURLResponse {
   var isOK: Bool {
-    return statusCode == 200
+    return  (200...299).contains(statusCode)
   }
 }
 

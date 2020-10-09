@@ -7,7 +7,7 @@
 
 import Foundation
 
-class FetchPhotoOperation: ConcurrentOperation {
+final class FetchPhotoOperation: ConcurrentOperation {
 
   // MARK: Properties
 

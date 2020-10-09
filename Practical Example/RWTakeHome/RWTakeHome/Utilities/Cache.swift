@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Cache<Key: Hashable, Value> {
+final class Cache<Key: Hashable, Value> {
   
   func cache(value: Value, for key: Key) {
     queue.async {
